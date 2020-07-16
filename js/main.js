@@ -13,17 +13,17 @@ function submit(nquest, resp){
     if(nquest==2){
         if(resp=='a'){
             add_answers(nquest,resp);
-            return page_request('/src/page2-1.html', destino)
+            return page_request('src/page2-1.html', destino)
         }
     }
     if(nquest==2.1){
-        url='/src/page3.html';
+        url='src/page3.html';
         add_answers(nquest,resp);
         return page_request(url, destino);
     }
     else{
         add_answers(nquest,resp);
-        url='/src/page'+(nquest+1)+'.html';
+        url='src/page'+(nquest+1)+'.html';
         return page_request(url, destino);
     }
 }
@@ -55,7 +55,7 @@ function post() {
     if(data.nome!="" && data.email!=""){
       firebase.firestore().collection('leads').add(data).then(docRef =>{
         console.log(docRef.id);
-        page_request('/src/page8.html', 'content'); 
+        page_request('src/page8.html', 'content'); 
      })
     }
 }

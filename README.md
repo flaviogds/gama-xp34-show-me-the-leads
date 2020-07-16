@@ -42,6 +42,7 @@ Após receber o protótipo do layout, pensado apenas para mobile, bem como a pal
 
 _Foto do layout mobile, pagina inicial e quiz_
 ![web](test/proto_01.png)
+
 _Foto do layout mobile, pagina de captação e de agradecimento_
 ![web](test/proto_02.png)
 

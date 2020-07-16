@@ -52,7 +52,7 @@ body{
 /*Background todas as paginas */
 .card-questions{
     background: #FACEB4;
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     background-size: 100%;
 }
 .question-div{

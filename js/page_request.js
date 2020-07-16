@@ -1,6 +1,6 @@
 let httpRequest="";
 
-let loading = "<center><img class='loading' src='images/load.gif'></center>";
+let loading = "<center><img class='loading' src='../images/load.gif'></center>";
 
 function page_request(url, destino){
 

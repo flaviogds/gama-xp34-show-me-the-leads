@@ -70,15 +70,15 @@ Para desenvolver a aplicação, utilizamos as seguintes ferramentas:
 
 Profissionais de diferentes areas contruibuiram para a realização do projeto.
 
-* Front-end
+* Front-end: 
 [Gizele Rodrigues](https://www.linkedin.com/in/gizele-rodrigues-336943142/), 
 [Valquiria Mascarenhas Aidar](https://www.linkedin.com/in/val-aidar/)
-* Marketing Digital / Growth
+* Marketing Digital / Growth: 
 [Maria Helena Almeida de Assunção](https://www.linkedin.com/in/mariahelenaal/), 
 [Murilo de Sousa Lourenço](https://www.linkedin.com/in/murilo-de-sousa-louren%C3%A7o/)
-* Inside Sales
+* Inside Sales: 
 [Larissa Fonseca Veloso](https://www.linkedin.com/in/larissa-veloso-1382821a0/), 
 [Tatiane Mikami Costa](https://www.linkedin.com/in/tatianemikamicosta/)
-* UX/UI Design
+* UX/UI Design: 
 [Bárbara Carolina de Lima](https://www.linkedin.com/in/barbara-lima-76105045/), 
 [Luciana Buglia Pires](https://www.linkedin.com/in/luciana-buglia-5b82a996/)

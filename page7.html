@@ -1,41 +1,31 @@
-<div class="card bg-faq">
+<div class="card card-questions">
 
-    <div class="title-div">
-      <h3 class="title"> Obrigado pela participação!  </h3>
-    </div>
+  <div class="title-div">
+    <h3 class="title"> Obrigado pela participação! </h3>
+  </div>
 
-     <div id="text-div">
+  <div id="text-div">
 
-      <p class="text-content">
-        Por favor, informe seu nome e e-mail que
-         possamos enviar o seu eBook!
-      </p>
-
-    </div>
-
-    <div class="btn-div">
-        
-      <form method="POST" action="https://smtl.gama.academy/leads/bfeebc02-b7e1-11ea-8228-89cff86db9a0">
-        <div class="form-row card-space">
-          <div class="form-group">
-            <input class="form-control card-space agradec btn-faq" id="nome" name="name" type="text" pattern="^\D{2,}\s[\D\s]{2,}$" 
-              title="Digite seu nome completo" placeholder="Insira seu nome completo" required/> 
-            <input class="form-control card-space agradec btn-faq" id="email card-content" name="email" type="email" 
-              title="Digite um email válido" placeholder="Insira seu email" required/>
-          </div>
-        </div>
-          <input name="redirectTo" type="hidden" value="https://sigmasolucao.netlify.app/page8.html" />
-          <div class="card-body" id="card-content">
-            <button class="btn-init btn-recomen" type="submit">Ver recomendação</button><br>
-          </div>
-      </form>
-
-    </div>
-
-    <div class="btn-init-div">
-        <button class="btn-init btn-init1" onclick="fazerRequisicao('page6.html', 'div_destino')"> Voltar para anterior </button>
-        <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-    </div>
-
+    <p class="text-content">
+      Por favor, informe seu nome e e-mail que
+      possamos enviar o seu eBook!
+    </p>
 
   </div>
+
+  <form method="POST" action="https://smtl.gama.academy/leads/bfeebc02-b7e1-11ea-8228-89cff86db9a0">
+    
+    <div class="question-div">
+      <input class="form-control submit-box" type="text" placeholder="nome" id="nome" pattern="^\D{2,}\s[\D\s]{2,}$" required />
+      <br>
+      <input class="form-control submit-box" type="email" placeholder="seu-email@email.com" id="email" required />
+      <br>
+      <button class="button button-content" type="button" onclick="post()" type="submit">Ver recomendação</button>
+    </div>
+
+  </form>
+
+  <button class="button button-content" onclick="page_request('page6.html', 'content')">Anterior</button>
+  <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
+
+</div>

@@ -1,23 +1,22 @@
-<div class="card card-1 bg-faq">
+<div class="card card-questions">
     
     <div class="title-div">
       <h3 class="title"> Qual sua faixa etária? </h3>
     </div>
     
-    <div class="btn-div">
+    <div class="question-div">
         
-        <button class="btn-faq" onclick="pergunta(1,'a')"> 18 a 24 anos </button>
-
-        <button class="btn-faq" onclick="pergunta(1,'b')"> 25 a 34 anos </button>
-
-        <button class="btn-faq" onclick="pergunta(1,'c')"> 35 a 44 anos </button>
-
-        <button class="btn-faq" onclick="pergunta(1,'d')"> Acima de 44 anos </button>
+        <button class="box box-text" onclick="submit(1,'a')"><span class="index">1</span> 18 a 24 anos </button>
+        <br>
+        <button class="box box-text" onclick="submit(1,'b')"><span class="index">2</span> 25 a 34 anos </button>
+        <br>
+        <button class="box box-text" onclick="submit(1,'c')"><span class="index">3</span> 35 a 44 anos </button>
+        <br>
+        <button class="box box-text" onclick="submit(1,'d')"><span class="index">4</span> Acima de 44 anos </button>
 
     </div>
 
-    <div class="btn-init-div">  
-      <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-    </div>
+    <button class="button button-content hidden" onclick="page_request('', 'content')">Anterior</button>
+    <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
 
 </div>

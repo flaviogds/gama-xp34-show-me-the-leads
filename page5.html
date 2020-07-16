@@ -1,24 +1,34 @@
-<div class="card card-5 bg-faq">
+<div class="card card-questions">
 
-  <div class="title-div title-div-5">
-    <h3 class="title title-5"> Qual maior desafio no seu trabalho? </h3>
+  <div class="title-div">
+    <h3 class="title"> Qual maior desafio no seu trabalho? </h3>
   </div>
   
-  <div class="btn-div btn-div-5">
+  <div class="question-div">
       
-      <button class="btn-faq-5" onclick="pergunta(5,'a')"> Falha na comunicação </button>
-
-      <button class="btn-faq-5" onclick="pergunta(5,'b')"> Resultados não previstos </button>
-
-      <button class="btn-faq-5" onclick="pergunta(5,'c')"> Processos burocráticos </button>
-
-      <button class="btn-faq-5" onclick="pergunta(5,'d')"> Indefinição de tarefas e responsabilidades </button>
+      <button class="box box-text text-sm" onclick="submit(5,'a')">
+        <span class="index index-lg">1</span>
+         <p style="margin-top: 20px;">Falha na comunicação</p> 
+        </button>
+      <br>
+      <button class="box box-text text-sm" onclick="submit(5,'b')">
+        <span class="index index-lg">2</span>
+         <p style="margin-top: 20px;">Resultados não previstos</p> 
+        </button>
+      <br>
+      <button class="box box-text text-sm" onclick="submit(5,'c')">
+        <span class="index index-lg">3</span>
+         <p style="margin-top: 20px;">Processos burocráticos</p> 
+        </button>
+      <br>
+      <button class="box box-text text-sm" onclick="submit(5,'d')">
+        <span class="index index-lg">4</span>
+         <p style="margin-top: 20px;">Indefinição de tarefas e responsabilidades</p> 
+        </button>
   
   </div>
     
-  <div class="btn-init-div btn-init-5">
-    <button class="btn-init btn-init1" onclick="fazerRequisicao('page4.html', 'div_destino')"> Voltar para anterior </button> 
-    <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-  </div>
+  <button class="button button-content" onclick="page_request('page4.html', 'content')">Anterior</button>
+  <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
 
 </div>

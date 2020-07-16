@@ -1,27 +1,34 @@
-<div class="card card-6 bg-faq">
+<div class="card card-questions">
 
   <div id="title-div">
     <h3 class="title"> Qual ferramenta você utiliza para gestão dos processos? </h3>
   </div>
   
-  <div class="btn-div">
+  <div class="questions-div">
       
-      <button class="btn-faq" onclick="pergunta(6,'a')"> Trello </button>
-
-      <button class="btn-faq" onclick="pergunta(6,'b')"> Pipefy </button>
-
-      <button class="btn-faq" onclick="pergunta(6,'c')"> Nenhuma </button>
-
+      <button class="box box-text" onclick="submit(6,'a')">
+        <span class="index">1</span>
+         Trello 
+      </button>
+      <br>
+      <button class="box box-text" onclick="submit(6,'b')">
+        <span class="index">2</span>
+         Pipefy 
+      </button>
+      <br>
+      <button class="box box-text" onclick="submit(6,'c')">
+        <span class="index">3</span>
+         Nenhuma 
+      </button>
+      <br>
       <form class="form">
-        <input type="text" class="agradec btn-faq" placeholder="Outra" id="tool" required/>
-        <button class="btn-init btn-continuar" onclick="addTool()" id="btn-6">Continuar</button>
+        <input type="text" class="input-box" placeholder="Outra" id="tool" required/>
+        <button class="input-button input-text" onclick="addTool()">Continuar</button>
       </form>
   
   </div>
     
-  <div class="btn-init-div">
-    <button class="btn-init btn-init1" onclick="fazerRequisicao('page5.html', 'div_destino')"> Voltar para anterior </button> 
-    <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-  </div>
-
+  <button class="button button-content" onclick="page_request('page5.html', 'content')">Anterior</button>
+  <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
+ 
 </div>

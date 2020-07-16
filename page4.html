@@ -1,33 +1,34 @@
-<div class="card card-4 bg-faq">
+<div class="card card-questions">
 
-  <div id="title-div4">
+  <div id="title-div">
     <h3 class="title"> Você conhece os processos de onde trabalha? </h3>
   </div>
   
-  <div class="btn-div btn-div-4">
+  <div class="question-div">
       
-      <button id="btn-faq-4" onclick="pergunta(4,'a')">
-        Conheço os processos, mas as atividades necessárias não são claras.
+      <button class="box box-lg box-text text-sm" onclick="submit(4,'a')">
+        <span class="index index-lg">1</span>
+        <p style="margin-top: 15px;">Conheço os processos, mas as atividades necessárias não são claras.</p>
       </button>
-
-      <button id="btn-faq-4" onclick="pergunta(4,'b')">
-        Conheço os processos em nível alto e detalhado.
+      <br>
+      <button class="box box-lg box-text text-sm" onclick="submit(4,'b')">
+        <span class="index index-lg">2</span>
+        <p style="margin-top: 20px;">Conheço os processos em nível alto e detalhado.</p>
       </button>
-
-      <button id="btn-faq-4" onclick="pergunta(4,'c')">
-        Conheço completamente os processos, identifico as falhas e oportunidades de melhoria.
+      <br>
+      <button class="box box-lg box-text text-sm" onclick="submit(4,'c')">
+        <span class="index index-lg">3</span>
+        <p style="margin-top: 10px;">Conheço todos os processos, identifico as falhas e oportunidades de melhoria.</p>
       </button>
-
-      <button id="btn-faq-4" onclick="pergunta(4,'d')">
-        Estou constantemente e proativamente revisando as etapas e atividades do processo, melhorando-as.
+      <br>
+      <button class="box box-lg box-text text-sm" onclick="submit(4,'d')">
+        <span class="index index-lg">4</span>
+        <p style="margin-top: 10px;">Estou constantemente revisando as etapas e atividades do processo, melhorando-as.</p>
       </button>
 
   </div>
     
-  
-  <div class="btn-init-div btn-init-4">
-    <button class="btn-init btn-init1" onclick="fazerRequisicao('page3.html', 'div_destino')"> Voltar para anterior </button><br>
-    <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-  </div>
-  
+  <button class="button button-content" onclick="page_request('page3.html', 'content')">Anterior</button>
+  <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
+
 </div>

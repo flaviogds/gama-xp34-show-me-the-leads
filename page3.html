@@ -1,29 +1,27 @@
-<div class="card bg-faq">
+<div class="card card-questions">
 
-  <div class="title-div title-div-3">
-    <h3 class="title" style="font-size: 30px;";> Você trabalha em qual área? </h3>
+  <div class="title-div">
+    <h3 class="title"> Você trabalha em qual área? </h3>
   </div>
 
-  <div class="btn-div btn-div-3">
+  <div class="questions-div">
 
-      <button class="btn-faq" onclick="pergunta(3,'Financeira')"> Financeira </button>
-
-      <button class="btn-faq" onclick="pergunta(3,'Marketing/Vendas')"> Marketing/Vendas </button>
-
-      <button class="btn-faq" onclick="pergunta(3,'Gestão de pessoas')"> Gestão de pessoas </button>
-
-      <button class="btn-faq" onclick="pergunta(3,'Tecnologia')"> Tecnologia </button>
-
+      <button class="box box-text" onclick="submit(3,'Financeira')"><span class="index">1</span> Financeira </button>
+      <br>
+      <button class="box box-text" onclick="submit(3,'Marketing/Vendas')"><span class="index">2</span> Marketing/Vendas </button>
+      <br>
+      <button class="box box-text" onclick="submit(3,'Gestão de pessoas')"><span class="index">3</span> Gestão de pessoas </button>
+      <br>
+      <button class="box box-text" onclick="submit(3,'Tecnologia')"><span class="index">4</span> Tecnologia </button>
+      <br>
       <form class="form">
-        <input type="text" class="inputFaq btn-faq" placeholder="Outra" id="area" required/>
-        <button class="btn-3 btn-init btn-continuar" onclick="addArea()">Continuar</button>
+        <input type="text" class="input-box" placeholder="Outra" id="area" required/>
+        <button class="input-button input-text" onclick="addArea()">Continuar</button>
       </form>
 
   </div>
 
-  <div class="btn-init-div">
-    <button class="btn-init btn-init1" onclick="fazerRequisicao('page2.html', 'div_destino')"> Voltar para anterior </button>
-    <a href='index.html'><button class="btn-init btn-init1"> Voltar ao inicio </button></a>
-  </div>
+  <button class="button button-content" onclick="page_request('page2.html', 'content')">Anterior</button>
+  <button class="button button-content" onclick="window.location.reload()">Voltar ao inicio</button>
   
 </div>

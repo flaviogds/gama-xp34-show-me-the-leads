@@ -1,579 +1,289 @@
-    /*Estilização navbar*/
-
-.nav-brand{
-    height: 3.2em;
+body{
+    font-family: Cabin Condensed;
+    font-style: normal;
+    color: #2F4494;
+    text-align: center;
+    width: 100%;
 }
-.nav{
+.central-body{
+    margin: auto;
+    padding: 3vw;
 }
-
-.secao{
-    position: relative;
-    margin-bottom: 40px;
+.nav-icon{
+    width: 35px;
+    margin: auto;
+    margin-right: 20px;
 }
-/*Estilização dos cards*/
-
-.card{/*Classe padrão de cards*/
-    padding: 40px 20px 20px 20px;
-    position: relative;
+.line-icon{
+    width: 40px;
+}
+/*Classe padrão de cards*/
+.card{
+    padding: 40px 20px 20px 20px; /*converter em vw*/
     border-radius: 25px;
-    margin: 3.5%;
-} 
-.card-1{
-    padding-bottom: 132px;
 }
-.card-2{
-    padding-bottom: 57px;
-}
-.card-2.1{
-    padding-bottom: -6px;
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.card-4 {
-    padding-top: 0px;
-    padding-bottom: 10px;
-    margin-top: 3.5%;
-    margin-bottom: 0.5%;
-    padding-left: 15px;
-    padding-right: 10px;
-}
-.card-5 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.card-6{
-    padding-top: 20px;
-}
-#bg-card{ /*Background card inicial*/
+/*Card inicial*/
+.card-blue{
     background: #B5E8FA;
     padding-bottom: 41px;
 }
-.bg-faq{/*Background todas as paginas */
+ /*Div de titulos*/
+.title-div{
+    margin: 0;
+    padding: 0px 20px 0px 20px; /*converter em vw*/
+}
+/*Caixa de texto inicial*/
+.text-div{
+    margin: 0;
+    padding: 10px 0 10px 0;/*converter em vw*/
+}
+/*Botão iniciar teste*/
+.button-start{
+    width: 80%;
+    min-width: 120px; 
+    max-width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #2F4494;
+    margin:auto;
+    margin-bottom: 10vw;
+}
+/*Background todas as paginas */
+.card-questions{
     background: #FACEB4;
-    background-image: url(images/top-view-of-people-at-the-meeting-3184287\ 1.png);
-    border-radius: 25px;
+    background-image: url('images/background.png');
+    background-size: 100%;
 }
-
-.title-div{/*Div de titulos*/
-    position: relative;
-    margin: 0px 25px 20px 25px;
-    padding: 0px 20px 0px 20px;
-
+.question-div{
+    margin: 0;
+    padding: 10px;
 }
-.title-div-2.1{
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-.title-div-3{
-    margin-left: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
-}
-.title-div-5 {
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-}
-
-.title{ /*Classe de titulos*/
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 40px;
-    text-align: center;
-    color: #2F4494;
-    margin-bottom: 1.5rem;
-    margin-top: 18px;
-}
-.title-4 {
-    margin-bottom: 15px;
-    margin-top: 21px;
-}
-.title-5{
-    margin-bottom: 0px;
-    margin-top: 13px;
-}
-
-#text-div{ /*Caixa de texto inicial*/
-    margin: 0px 5px 0px 5px;
-    padding: 0px 0px 0px 5px;
-    position: relative;
-}
-
-.text-content{ /*Caixa de texto inicial*/
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #2F4494;
-
-    /*local padding*/
-    padding-bottom: 15px;
-}
-
-#text-draft{ /*Caixa de texto inicial*/
-    font-weight: bolder;
-}
-
-#btn-start{ /*Botão iniciar teste*/
-    position: relative;
-    width: 280px;
-    height: 76.15px;
-    border-radius: 50px;
-    background: #2F4494;
-    margin: 10% 15% 10% 5%;
-    justify-content: center;
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 32px;
-    text-align: center;
-    color: #FFFFFF;
-    margin-top: 15%;
-    margin-bottom: 32%;
-}
-.btn-div{
+.box{
+    width: 80%;
+    max-width: 400px;
     margin: auto;
-    padding: 10px 0px 10px 0px;
-    margin:  40px 0px 40px 0px;
-}
-.btn-div-2.1{
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-.btn-div-3{
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    margin-bottom: 27px;
-}
-.btn-div-4 {
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
-}
-.btn-div-5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-.btn-3{
-    padding-left: 8px;
-    margin-left: 15px;
-}
-.btn-faq{/*Classe padrão de respostas*/
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    width: 314.47px;
-    height: 43.35px;
-
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
+    margin-bottom: 20px;
     background: #FFFFFF;
     border-radius: 50px;
-
 }
-.inputFaq{/*Classe padrão de respostas*/
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    width: 314.47px;
-    height: 43.35px;
-    padding-left: 20px;
-
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #000000;
-
+.box-lg{
+    width: 100%;
+    height: 90px;
+    font-size: 1.4em;
+}
+.index{
+    float: left;
+    width: 26px;
+    height: 26px;
+    border-radius: 36px;
+    margin-top: 1.2px;
+    background-color: #2F4494;
+    /*Typography*/
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #FFF;
+}
+.index-lg{
+    padding-top: 3px;
+    margin: 20px 5px 20px 0;
+}
+.input-box{
+    width: 53%;
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-left: 10px;
     background: #FFFFFF;
     border-radius: 50px;
-
 }
-.textInput{/*Classe padrão de respostas*/
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    padding-left: 20px;
-    width: 314.47px;
-    height: 43.35px;
-    justify-content: center;
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
+.input-button{
+    width: 25%;
+    max-width: 90px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #2F4494;
+    border-radius: 50px;
+}
+.submit-box{
+    width: 80%;
+    max-width: 425px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding-left: 10px;
     background: #FFFFFF;
     border-radius: 50px;
-
 }
-
-#btn-faq-2{    
-    position: relative;
-    margin: 15px 0px 0px 0px;
-    width: 314.47px;
-    height: 95px;
-
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
-    background: #FFFFFF;
-    border-radius: 50px;
-
-}
-#btn-faq-4{    
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    width: 314.47px;
-    height: 120px;
-
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
-    background: #FFFFFF;
-    border-radius: 50px;
-
-}
-
-.btn-faq-5{    
-    position: relative;
-    margin: 20px 0px 0px 0px;
-    width: 314.47px;
-    height: 110px;
-
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-
-    background: #FFFFFF;
-    border-radius: 50px;
-
-}
-
-.btn-back{
-    
-}
-.btn-init-div{
-    margin: 10px 10px 10px 10px;
-    padding: 10px 5px 15px 0px;
-}
-.btn-init-div-4 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-.btn-init-div-5 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.btn-init{
-
-    position: relative;
-    width: 279.11px;
-    height: 40.11px;
-    margin: 7.5px 5px 7.5px 5px;
-
+.submit-button{
+    width: 80%;
+    min-width: 120px; 
+    max-width: 280px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
     background: #2F4494;
     border-radius: 50px;
+}
+/*Botão back-initial*/
+.button{
+    width: 80%;
+    min-width: 120px; 
+    max-width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    background: #2F4494;
+    margin:auto;
+    margin-bottom: 2vw;
+}
+/*Hidden elements*/
+.hidden{
+    visibility: hidden;
+}
+/*Loading icon*/
+.loading{
+    width: 100px;
+    margin-top: 50%;
+    margin-bottom:50%;
+    border-radius: 15px;
+}
+.footer{
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    background-color:#FFF;
+    color: #000;
+}
 
-    font-family: Cabin Condensed;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 29px;
+
+/*================= Typography =================*/
+
+/*Classe de titulos*/
+.title-init{
+    font-weight: bold;
+    font-size: 2.375em;
+}
+.title{
+    font-weight: bold;
+    font-size: 2em;
+}
+/*Caixa de texto inicial*/
+.text-content{
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 22px;
+}
+.button-content{
+    font-weight: bold;
+    font-size: 1.425em;
     text-align: center;
     color: #FFFFFF;
-
 }
-#tool{
-    padding-left: 18px;
+.box-text{
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 29px;
+    padding: auto;
+    color: #000000;
 }
-#btn-6{
-    padding-left: 8px;
-    margin-left: 15px;
+.text-sm{
+    font-size: 1.2em;
+    line-height: normal;
 }
-#card-content {
-    padding-left: 7px;
-    padding-right: 0px;
+.question-sm{
+    font-size: 0.8em;
+    line-height: normal;
 }
-/*Rodapé*/
-
-#footer{
-    background-color: rgba(0, 0, 0, 0);
-    color:rgba(0, 0, 0, 1);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.input-text{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1em;
 }
-
-#copyright{
-    position: relative;
-    padding-left: 40%;
-}
-
-
-.icon{
-    width: 4.5%;
+.submit-text{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.2em;
 }
 
+/*================= Media Query =================*/
 
-@media(min-width: 390px){ 
-    a {
-        text-decoration: none;
+@media(max-width: 320px){
+    .box-text{
+        font-size: 1.2em;
+    }
+    .box-lg{
+        height: 80px;
+    }
+    .text-sm{
+        text-align: left;
+        font-size: 1.0em;
+    }
+    .input-text{
+        font-size: 0.8em;
+    }
+    .index-lg{
+        padding-top: 5px;
+    }
+}
+
+@media(min-width: 768px){
+    .box-lg{
+        height: 75px;
+    }
+    .text-sm{
+        font-size: 1.3em;
+    }
+    .index-lg{
+        padding-top: 2px;
+        margin: 15px 5px 20px 0;
     }
 
-    #btn-start{ /*Botão iniciar teste*/
-        position: relative;
-        width: 280px;
-        height: 76.15px;
-        border-radius: 50px;
-        background: #2F4494;
-        margin: 10% 15% 10% 39%;
-        justify-content: center;
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 32px;
-        text-align: center;
-        color: #FFFF;
-    }
+}
 
-    #footer{
-        background-color: rgba(0, 0, 0, 0);
-        color:rgba(0, 0, 0, 1);
-        position: fixed;
-        bottom: 0;
+
+
+
+/*@media(min-width: 1024px){
+    .card{
+        padding: 80px 100px 40px 100px;
+    }
+    .box-lg{
+        font-size: 1.8em;
+    }
+}
+@media(min-width: 768px){
+    .box-lg-2{
         width: 100%;
+        font-size: 1.6em;
+        padding-left: 30px;
+        line-height: normal;
     }
-
-    #copyright{
-        position: relative;
-        padding-left: 46%;
+    .text-alt{
+        font-size: 2.2em;
     }
-
-    .text-content{ /*Caixa de texto inicial*/
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 22px;
-        text-align: center;
-        color: #2F4494;
-
-        /*local padding*/
-        padding-bottom: 15px;
-    }
-    .btn-div{
-        margin: auto;
-        padding: 10px 0px 10px 0px;
-        margin:  40px 0px 40px 0px;
-    }
-
-    .btn-faq{/*Classe padrão de respostas*/
-        position: relative;
-        margin: 20px 0px 0px 490px;
-        width: 314.47px;
-        height: 43.35px;
-        text-align: center;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #000000;
-
-        background: #FFFFFF;
-        border-radius: 50px;
-    }
-
-    .btn-init-div{
-        margin: 10px 10px 10px 500px;
-        padding: 10px 5px 15px 0px;
-    }
-
-    .btn-init{
-
-        position: relative;
-        width: 279.11px;
-        height: 40.11px;
-        margin: 7.5px 30px 7.5px 5px;
-
-        background: #2F4494;
-        border-radius: 50px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        text-align: center;
-        color: #FFFFFF;
-
-    }
-
-    .btn-init1{
-
-        position: relative;
-        width: 279.11px;
-        height: 40.11px;
-        margin: 7.5px 400px 7.5px 5px;
-
-        background: #2F4494;
-        border-radius: 50px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #FFFFFF;
-
-    }
-
-    .btn-continuar{
-        position: relative;
-
-        background: #2F4494;
-        border-radius: 50px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        text-align: center;
-        color: #FFFFFF;
-
-    }
-
-    #btn-faq-4{    
-        position: relative;
-        margin: 20px 0px 0px 500px;
-        width: 314.47px;
-        height: 120px;
-        text-decoration: none;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #000000;
-
-        background: #FFFFFF;
-        border-radius: 50px;
-
-    }
-    .btn-faq-5{    
-        position: relative;
-        margin: 20px 0px 0px 500px;
-        width: 314.47px;
-        height: 110px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #000000;
-
-        background: #FFFFFF;
-        border-radius: 50px;
-
-    }
-
-    .Agradec{
-        position: relative;
-        margin: 20px 0px 0px 1000px;
-        width: 314.47px;
-        height: 43.35px;
-        padding-left: 20px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 29px;
-        color: #000000;
-
-        background: #FFFFFF;
-        border-radius: 50px;
-
-    }
-
-    #btn-faq-2{    
-        position: relative;
-        margin: 15px 0px 0px 480px;
-        width: 314.47px;
-        height: 95px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        color: #000000;
-
-        background: #FFFFFF;
-        border-radius: 50px;
-
-    }
-
-    .btn-recomen{
-        position: relative;
-        margin-left: 520px; 
-        background: #2F4494;
-        border-radius: 50px;
-
-        font-family: Cabin Condensed;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 29px;
-        text-align: center;
-        color: #FFFFFF;
-
-    }
-   
-
-
-
 }
-
+@media(min-width: 375px){
+    .text-alt{
+        font-size: 1.2em;
+    }
+}
+@media(max-width: 320px){
+    .question{
+        font-size: 1.3em;
+    }
+    .question-sm{
+        font-size: 0.8em;
+        line-height: normal;
+    }
+    .input-text{
+        font-size: 0.8em;
+    }
+    .box-lg-2{
+        height: 90px;
+        font-size: 1em;
+        padding-top: 7px;
+        padding-right: 7px;
+    }
+}*/

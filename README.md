@@ -1,6 +1,6 @@
 # Show me the leads
 
-## Indice
+## Índice
 
 * [1. Sobre o projeto](#1-sobre-o-projeto)
 * [2. Persona](#2-persona)
@@ -32,18 +32,18 @@ Foi desevolvido um quiz a fim de identificar, categorizar e validar os leads cap
 * Iniciar o quiz
 * Avançar e retroceder nas questões
 * Input box para respostas não listadas
-* Input box para captação de nome e email
+* Input box para captação de nome e e-mail
 
 ***
 ## 4. Protótipos
 ***
 
-Após receber o protótipo do layout, pensado apenas para mobile, bem como a paleta de cores foi feito o esboço das rotas. De modo complementar foi considerado a responsividade do projeto.
+Após receber o protótipo do layout, pensado apenas para mobile, bem como a paleta de cores foi feito o esboço das rotas. De modo complementar foi considerado a responsividade do projeto e expandido para web.
 
-_Foto do layout mobile, pagina inicial e quiz_
+_Foto do layout mobile, página inicial e quiz_
 ![web](test/proto_01.png)
 
-_Foto do layout mobile, pagina de captação e de agradecimento_
+_Foto do layout mobile, página de agradecimento e captação e página com conteúdo exclusivo_
 ![web](test/proto_02.png)
 
 
@@ -68,7 +68,7 @@ Para desenvolver a aplicação, utilizamos as seguintes ferramentas:
 ## 6 - Colaboradores
 ***
 
-Profissionais de diferentes areas contruibuiram para a realização do projeto.
+Profissionais de diferentes áreas contruibuiram para a realização do projeto.
 
 * Front-end: 
 [Gizele Rodrigues](https://www.linkedin.com/in/gizele-rodrigues-336943142/), 

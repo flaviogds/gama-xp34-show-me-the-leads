@@ -1,5 +1,4 @@
-# Show me the leads TESTE
-
+# Show me the leads
 ## Índice
 
 * [1. Sobre o projeto](#1-sobre-o-projeto)
